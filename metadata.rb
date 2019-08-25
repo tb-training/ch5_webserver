@@ -1,4 +1,4 @@
-name 'ch4_webserver'
+name 'ch5_webserver'
 maintainer 'Tio Bagio'
 maintainer_email 'tbagio@chef.io.com'
 license 'All Rights Reserved'
