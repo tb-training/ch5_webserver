@@ -16,3 +16,9 @@ end
 describe port(80), :skip do
   it { should_not be_listening }
 end
+
+## case insensitive match
+##
+describe command('curl localhost') do
+  its('stdout') {should cmp /hello/i}
+end
