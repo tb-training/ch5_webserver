@@ -1,7 +1,7 @@
 ---
 driver:
   name: ec2
-  aws_ssh_key_id: bagio-training
+  aws_ssh_key_id: chef_demo_2x
   region: us-west-2
   security_group_ids: sg-0f003c38f1d4b66f2
   subnet_id: subnet-007780467e75e2b2a
@@ -45,7 +45,7 @@ platforms:
   - name: centos-6
     transport:
       username: centos
-      ssh_key: ~/.ssh/bagio-training.pem
+      ssh_key: ~/.ssh/id_rsa
     driver_config:
       user_data: ./kitchen_user_data
 
